@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+#albums{
+    background-color:white;
+    padding-top:15px;
+}
+
+#albums .albums .album1{
+    width: 25%;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;   
+}
+#albums .albums .album2{
+    width: 70%;
+    float: right;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#albums .albums .album1:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#albums .albums .album2:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#albums .albums .album1 p{
+    font-size: 15px;
+    margin: 20px 200px 20px 150px;
+}
+#albums .albums .album2 p{
+    font-size: 15px;
+    margin: 20px 60px 20px 410px;
+}
+.clear-fix{
+    clear: both;
+}
+#navigation{
+    background-color:white;
+}
+#navigation .navigation .navigation1{
+    width: 98%;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;  
+    padding: 10px;  
+}
+#navigation .navigation .navigation1 p{
+    font-size: 15px;
+    margin-left: 650px;
+}
+#two{
+    background-color:white;
+    padding-top:0px;
+}
+
+#two .two .two1{
+    width: 46%;
+    height: 200px;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;  
+    
+}
+#two .two .two2{
+    width: 50%;
+    height: 200px;
+    float: right;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 300px;
+}
+
+#two .two .two1:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#two .two .two2:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#two .two .two1 p{
+    font-size: 15px;
+    margin: 70px 200px 90px 290px;
+}
+#two .two .two2 p{
+    font-size: 15px;
+    margin: 70px 60px 20px 20px;
+}
+
+
+#there{
+    background-color:white;
+    padding-top:0px;
+}
+
+#there .there .there1{
+    width: 31%;
+    height: 200px;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;  
+    margin-right: 14px;
+}
+#there .there .there2{
+    width: 31%;
+    height: 200px;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-right: 14px
+}
+#there .there .there3{
+    width: 31%;
+    height: 200px;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#there .there .there1:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#there .there .there2:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#there .there .there3:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#there .there .there1 p{
+    font-size: 15px;
+    margin: 80px 100px 100px 100px;
+}
+#there .there .there2 p{
+    font-size: 15px;
+    margin: 80px 60px 20px 100px;
+}
+#there .there .there3 p{
+    font-size: 15px;
+    margin: 80px 60px 20px 110px;
+}
+#footer{
+    background-color:white;
+}
+#footer .footer .footer1{
+    width: 98%;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;  
+    padding: 10px;   
+}
+#footer .footer .footer1 p{
+    font-size: 15px;
+    margin-left: 700px;
+}

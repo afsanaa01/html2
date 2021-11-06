@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    padding-left: 10px;
+    padding-right: 5px;
+}
+#albums{
+    background-color:white;
+    padding-top:15px;
+}
+
+#albums .albums .album1{
+    width: 75%;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;   
+}
+#albums .albums .album2{
+    width: 21%;
+    float: right;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#albums .albums .album1:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#albums .albums .album2:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#albums .albums .album1 p{
+    font-size: 15px;
+    margin: 20px 200px 20px 430px;
+}
+#albums .albums .album2 p{
+    font-size: 15px;
+    margin: 20px 60px 20px 110px;
+}
+.clear-fix{
+    clear: both;
+}
+#navigation{
+    background-color:white;
+}
+#navigation .navigation .navigation1{
+    width: 98%;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;  
+    padding: 10px;  
+}
+#navigation .navigation .navigation1 p{
+    font-size: 15px;
+    margin-left: 600px;
+}
+#four{
+    background-color:white;
+    padding-top:15px;
+}
+
+#four .four .four1{
+    width: 25%;
+    height: 250px;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;   
+}
+#four .four .four2{
+    width: 40%;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#four .four .four3{
+    width: 29%;
+    height: 78px;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#four .four .four4{
+    margin-left: 29px;
+    width: 71%;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;
+    padding: 150px;
+}
+#four .four .four1:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#four .four .four2:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#four .four .four3:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#four .four .four4:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#four .four .four1 p{
+    font-size: 15px;
+    margin: 90px 200px 90px 130px;
+}
+#four .four .four2 p{
+    font-size: 15px;
+    margin: 20px 60px 20px 210px;
+}
+#four .four .four3 p{
+    font-size: 15px;
+    margin: 20px 200px 20px 180px;
+}
+#four .four .four4 p{
+    font-size: 15px;
+    margin: 20px 200px 20px 300px;
+}
+#footer{
+    background-color:white;
+}
+#footer .footer .footer1{
+    width: 98%;
+    float: left;
+    background-color: rgba(45, 22, 177, 0.473);
+    margin-bottom: 20px;  
+    padding: 10px;   
+}
+#footer .footer .footer1 p{
+    font-size: 15px;
+    margin-left: 700px;
+}
